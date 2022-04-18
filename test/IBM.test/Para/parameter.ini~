@@ -1,0 +1,19 @@
+Global_Dimension_of_mixing_tank
+Diameter Height
+2.48			 2.40
+mesh_num_for_1m
+100
+inletsize position_x position_y position_z
+0.06          0          0.75         0.75  
+outletsize position_x position_y position_z
+0.06        1.5            0.75        0.75
+tbegin    tend     tpostproc   
+1	   300000     1500
+
+numprocx  numprocy   numprocz 
+4	   1            1
+
+gpubgnid  gpunum  visocity  bodyf  inlet_velocity density conin sct
+0	    4     7.013698e-4      0     4.18879e-3         1       1    0.001
+MRT_parameters
+0 1.19 1.4 0 1.2 0 1.2 0 1.2 1 1.4 1 1.4 1 1 1 1.98 1.98 1.98
